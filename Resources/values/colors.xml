@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#061F60</color>
+    <color name="Secondary">#2A334F</color>
+    <color name="Tertiary">#AFAFAF</color>
+
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+
+    <!--    Primary colors variants-->
+    <color name="Primary900">#0034a8</color>
+    <color name="Primary800">#0035d7</color>
+    <color name="Primary700">#0042ff</color>
+    <color name="Primary600">#005bff</color>
+    <color name="Primary500">#0882ff</color>
+    <color name="Primary400">#36abff</color>
+    <color name="Primary300">#76caff</color>
+    <color name="Primary200">#aeddff</color>
+    <color name="Primary100">#d1ebff</color>
+    <color name="Primary50">#ebf6ff</color>
+
+    <color name="PrimaryLabelcolor">#001225</color>
+    <color name="SplashScreensBackground">#001225</color>
+    <color name="PrimaryButtoncolor">#418ac7</color>
+    <color name="SecondaryButtoncolor">#f7f7f7</color>
+    <color name="Subtitlecolor">#b2c5ff</color>
+
+    <color name="Gray100">#E1E1E1</color>
+    <color name="Gray200">#C8C8C8</color>
+    <color name="Gray300">#ACACAC</color>
+    <color name="Gray400">#919191</color>
+    <color name="Gray500">#6E6E6E</color>
+    <color name="Gray600">#404040</color>
+    <color name="Gray900">#212121</color>
+    <color name="Gray950">#141414</color>
+
+    <color name="Yellow100Accent">#F7B548</color>
+    <color name="Yellow200Accent">#FFD590</color>
+    <color name="Yellow300Accent">#FFE5B9</color>
+
+    <color name="Cyan100Accent">#28C2D1</color>
+    <color name="Cyan200Accent">#7BDDEF</color>
+    <color name="Cyan300Accent">#C3F2F4</color>
+
+    <color name="Blue100Accent">#3E8EED</color>
+    <color name="Blue200Accent">#72ACF1</color>
+    <color name="Blue300Accent">#A7CBF6</color>
+
+    <!-- Login colors -->
+
+    <color name="ForgotPasswordButtonBackground">#42474b</color>
+    <color name="GeneralLogincolor">#0061a6</color>
+    <color name="FrameBordercolor">#042757</color>
+    <color name="SecondaryLogincolor">#333333</color>
+</resources>
