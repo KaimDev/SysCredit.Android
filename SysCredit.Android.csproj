@@ -16,4 +16,7 @@
       <Folder Include="Validations\" />
       <Folder Include="ViewModels\" />
     </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.10" />
+    </ItemGroup>
 </Project>
