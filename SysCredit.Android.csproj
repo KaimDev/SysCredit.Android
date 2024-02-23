@@ -10,8 +10,10 @@
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     </PropertyGroup>
     <ItemGroup>
-      <Folder Include="Activities\" />
-      <Folder Include="Resources\font\" />
+      <None Remove="Resources\drawable\bg_gradient.xml" />
+      <None Remove="Resources\drawable\splash_background.xml" />
+    </ItemGroup>
+    <ItemGroup>
       <Folder Include="Services\" />
       <Folder Include="Validations\" />
       <Folder Include="ViewModels\" />

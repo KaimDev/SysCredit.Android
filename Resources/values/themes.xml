@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="SysCredit">
+    <style name="SysCredit" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="android:statusBarColor">@color/Primary</item>
     </style>
     
     <style name="SysCredit.NoActionBar">
