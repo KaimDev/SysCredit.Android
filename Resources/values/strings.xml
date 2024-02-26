@@ -12,4 +12,14 @@
     
     <!--Menu items-->
     <string name="Home">Home</string>
+
+	<!--Login items-->
+	<string name="welcome">Welcome!</string>
+	<string name="enter_data_message">Enter your details to log in</string>
+	<string name="first_input_placeholder">Username</string>
+	<string name="second_input_placeholder">Password</string>
+	<string name="checkbox_message">Save session</string>
+	<string name="recover_account_message">Forgot password?</string>
+	<string name="log_in_button">Log in</string>
+	<string name="sign_in_button">Sign in</string>
 </resources>

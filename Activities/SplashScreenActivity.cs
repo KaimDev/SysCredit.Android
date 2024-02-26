@@ -10,7 +10,7 @@ public class SplashScreenActivity : AppCompatActivity
     {
         base.OnCreate(savedInstanceState);
 
-        StartActivity(new Intent(this, typeof(HomeActivity)));
+        StartActivity(new Intent(this, typeof(LoginActivity)));
         Finish();
     }
 }
