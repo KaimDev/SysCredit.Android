@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- LANGUAGE: es -->
+
+<resources>
+    <string name="app_name">SysCredit</string>
+    <string name="app_text">Hola, Android!</string>
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Abrir</string>
+    <string name="nav_close">Cerrar</string>
+
+    <!--Menu items-->
+    <string name="Home">Inicio</string>
+</resources>
