@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="SysCredit" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="SysCredit" parent="Theme.MaterialComponents.Light.DarkActionBar">
+		<item name="colorPrimary">@color/Primary</item>
     </style>
 
     <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
