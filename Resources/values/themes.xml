@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="SysCredit" parent="Theme.MaterialComponents.Light.DarkActionBar">
-		<item name="colorPrimary">@color/Primary</item>
+    <style name="Theme.SysCredit" parent="Theme.Material3.DayNight">
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
     </style>
 
     <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
@@ -9,7 +10,31 @@
         <item name="colorPrimary">@color/Primary</item>
         <item name="android:statusBarColor">@color/Primary</item>
     </style>
-    
-    <style name="SysCredit.NoActionBar">
+
+    <style name="Theme.SysCredit.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/Primary900</item>
+
+        <item name="colorNavigationItem">@color/menu_item_color_state</item>
+        <item name="colorNavigationItemSelected">@color/Primary</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+    </style>
+
+    <style name="Theme.SysCredit.AppBarOverlay">
+        <item name="android:colorPrimary">@color/White</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SysCredit.PopupOverlay">
+        <item name="android:colorPrimary">@color/White</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Style.SysCredit.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">@color/White</item>
+        <item name="itemTextColor">?attr/colorNavigationItem</item>
+        <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
+        <item name="fontFamily">@font/inter_black</item>
     </style>
 </resources>

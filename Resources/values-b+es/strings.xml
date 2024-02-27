@@ -11,6 +11,22 @@
     <string name="nav_close">Cerrar</string>
 
     <!--Menu items-->
+    <string name="home">Inicio</string>
+    <string name="client_regsitration">Registro de Clientes</string>
+    <string name="client_list">Lista de Clientes</string>
+    <string name="loan_application">Solicitud de Préstamo</string>
+    <string name="routes">Rutas</string>
+    <string name="reports">Reportes</string>
+    <string name="catalogs">Catálogos</string>
+    <string name="about">Acerca de</string>
+    <string name="help">Ayuda</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <string name="menu_button_description">Menú</string>
+    <string name="email">email@syscredit.com</string>
+
+    <!-- Image Descriptions -->
+    <string name="ic_default_gravatar_description">Personaje</string>
     <string name="Home">Inicio</string>
 
 	<!--Login items-->
