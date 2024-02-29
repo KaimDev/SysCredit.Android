@@ -3,7 +3,7 @@ using AndroidX.AppCompat.App;
 
 namespace SysCredit.Android.Activities;
 
-[Activity(Label = "LoginActivity", Theme = "@style/SysCredit")]
+[Activity(Label = "LoginActivity", Theme = "@style/Theme.SysCredit")]
 public class LoginActivity : AppCompatActivity
 {
     private Button logInButton = default!;
@@ -28,7 +28,7 @@ public class LoginActivity : AppCompatActivity
     {
         logInButton.Click += (sender, e) =>
         {
-            StartActivity(new Intent(this, typeof(HomeActivity)));
+            StartActivity(new Intent(this, typeof(MainActivity)));
         };
     }
 }

@@ -11,6 +11,22 @@
     <string name="nav_close">Close</string>
     
     <!--Menu items-->
+    <string name="home">Home</string>
+    <string name="client_regsitration">Client Registration</string>
+    <string name="client_list">Client List</string>
+    <string name="loan_application">Loan Application</string>
+    <string name="routes">Routes</string>
+    <string name="reports">Reports</string>
+    <string name="catalogs">Catalogs</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    
+    <string name="menu_button_description">Menu</string>
+    <string name="email">email@syscredit.com</string>
+    
+    <!-- Image Descriptions -->
+    <string name="ic_default_gravatar_description">Avatar</string>
     <string name="Home">Home</string>
 
 	<!--Login items-->
