@@ -16,12 +16,13 @@
             android:layout_height="210dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
             android:src="@drawable/logo_syscredit"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/welcome"
+            android:text="@string/recover_account"
             android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="@color/Primary"
@@ -31,7 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="@string/enter_data_message"
+            android:layout_marginBottom="15dp"
+            android:text="@string/enter_email_message"
             android:textSize="13sp"
             android:textColor="@color/Primary"
             android:fontFamily="@font/inter_light"/>
@@ -43,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:focusable="auto"
-            android:hint="@string/first_input_placeholder"
+            android:hint="@string/email_input_placeholder"
             app:boxStrokeColor="@color/Tertiary"
             android:textColor="@color/Primary"
             app:boxStrokeWidth="2dp"
@@ -52,55 +54,10 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content" 
+                android:inputType="textEmailAddress" />
 
         </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:focusable="auto"
-            android:hint="@string/second_input_placeholder"
-            app:boxStrokeColor="@color/Tertiary"
-            android:textColor="@color/Primary"
-            app:boxStrokeWidth="2dp"
-            app:endIconMode="password_toggle"
-            android:fontFamily="@font/inter_light">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:checked="false"
-                android:text="@string/checkbox_message"
-                android:textColor="@color/Primary"
-                android:fontFamily="@font/inter_light"/>
-
-            <Button
-                style="@style/Widget.Material3.Button.TextButton"
-                android:id="@+id/forget_password_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="13sp"
-                android:textColor="@color/Primary"
-                android:fontFamily="@font/inter_light"
-                android:text="@string/recover_account_message" />
-
-        </LinearLayout>
 
         <Button
             android:id="@+id/login_button"
@@ -110,22 +67,11 @@
             android:layout_marginBottom="7dp"
             android:backgroundTint="@color/Primary"
             android:height="70dp"
-            android:text="@string/log_in_button"
+            android:text="@string/send_button"
             android:textStyle="bold"
             android:textColor="@color/White"
             android:fontFamily="@font/inter_bold"
             />
-
-        <Button
-            android:id="@+id/signin_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/Tertiary"
-            android:height="70dp"
-            android:text="@string/sign_in_button"
-            android:textStyle="bold"
-            android:textColor="@color/Primary" 
-            android:fontFamily="@font/inter_bold"/>
 
     </LinearLayout>
 

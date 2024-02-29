@@ -36,6 +36,7 @@
       <None Remove="Resources\values\attr.xml" />
       <None Remove="Resources\values\drawer_item.xml" />
       <None Remove="Resources\layout\activity_login.xml" />
+      <None Remove="Resources\layout\activity_recover_account.xml" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Services\" />
