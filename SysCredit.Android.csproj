@@ -30,6 +30,7 @@
       <None Remove="Resources\drawable\nav_item_background.xml" />
       <None Remove="Resources\drawable\splash_background.xml" />
       <None Remove="Resources\layout\activity_main.xml" />
+      <None Remove="Resources\layout\activity_register_user.xml" />
       <None Remove="Resources\layout\app_bar_main.xml" />
       <None Remove="Resources\layout\fragment_construction.xml" />
       <None Remove="Resources\layout\nav_header.xml" />
