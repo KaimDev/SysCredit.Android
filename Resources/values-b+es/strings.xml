@@ -32,14 +32,18 @@
 	<!--Login items-->
 	<string name="welcome">¡Bienvenido!</string>
 	<string name="enter_data_message">Ingresa tus datos para iniciar sesión</string>
-	<string name="first_input_placeholder">Nombre de usuario</string>
-	<string name="second_input_placeholder">Contraseña</string>
+	<string name="username_input_placeholder">Nombre de usuario</string>
+	<string name="password_input_placeholder">Contraseña</string>
 	<string name="checkbox_message">Guardar sesión</string>
 	<string name="recover_account_message">¿Olvidó su contraseña?</string>
 	<string name="log_in_button">Iniciar Sesión</string>
 	<string name="sign_in_button">Registrarse</string>
 
-	<!--Recover Acccount items-->
+	<!--Register user items-->
+	<string name="create_account_message">¡Crear una cuenta!</string>
+	<string name="enter_details_message">Ingresa tus datos para crear tu cuenta</string>
+
+	<!--Recover Account items-->
 	<string name="recover_account">¡Recuperar cuenta!</string>
 	<string name="enter_email_message">Ingrese el correo electrónico para renovar la contraseña</string>
 	<string name="email_input_placeholder">Correo electrónico</string>

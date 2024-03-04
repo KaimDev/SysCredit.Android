@@ -8,6 +8,7 @@ public class LoginActivity : AppCompatActivity
 {
     private Button logInButton = default!;
     private Button forgetPasswordButton = default!;
+    private Button signinButton = default!;
 
     protected override void OnCreate(Bundle? savedInstanceState)
     {
@@ -24,6 +25,7 @@ public class LoginActivity : AppCompatActivity
     {
         logInButton = FindViewById<Button>(Resource.Id.login_button)!;
         forgetPasswordButton = FindViewById<Button>(Resource.Id.forget_password_button)!;
+        signinButton = FindViewById<Button>(Resource.Id.signin_button)!;
     }
 
     private void InitListeners()
@@ -36,6 +38,11 @@ public class LoginActivity : AppCompatActivity
         forgetPasswordButton.Click += (sender, e) =>
         {
             StartActivity(new Intent(this, typeof(RecoverAccountActivity)));
+        };
+
+        signinButton.Click += (sender, e) =>
+        {
+            StartActivity(new Intent(this, typeof(RegisterUserActivity)));
         };
     }
 }
