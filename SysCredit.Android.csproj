@@ -17,6 +17,7 @@
       <None Remove="Resources\drawable\ic_catalog_syscredit.png" />
       <None Remove="Resources\drawable\ic_circle_info_solid_white_syscredit.xml" />
       <None Remove="Resources\drawable\ic_close_session_white_syscredit.xml" />
+      <None Remove="Resources\drawable\ic_construction_project.gif" />
       <None Remove="Resources\drawable\ic_default_gravatar.xml" />
       <None Remove="Resources\drawable\ic_female_avatar_girl_face.xml" />
       <None Remove="Resources\drawable\ic_help_syscredit.xml" />
@@ -30,6 +31,7 @@
       <None Remove="Resources\drawable\splash_background.xml" />
       <None Remove="Resources\layout\activity_main.xml" />
       <None Remove="Resources\layout\app_bar_main.xml" />
+      <None Remove="Resources\layout\fragment_construction.xml" />
       <None Remove="Resources\layout\nav_header.xml" />
       <None Remove="Resources\menu\navigation_menu.xml" />
       <None Remove="Resources\values-b+es\strings.xml" />

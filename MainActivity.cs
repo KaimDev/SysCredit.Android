@@ -2,8 +2,9 @@ using Android.Views;
 using AndroidX.AppCompat.App;
 using AndroidX.Core.View;
 using AndroidX.DrawerLayout.Widget;
-using Google.Android.Material.AppBar;
+using AndroidX.Fragment.App;
 using Google.Android.Material.Navigation;
+using SysCredit.Android.Fragments;
 
 namespace SysCredit.Android;
 
@@ -11,7 +12,6 @@ namespace SysCredit.Android;
 public class MainActivity : AppCompatActivity
 {
     private DrawerLayout? drawerLayout;
-    private ActionBarDrawerToggle? drawerToggle;
     private NavigationView? navigationView;
     private ImageButton? menuButton;
     private IMenu? menu;
@@ -29,9 +29,11 @@ public class MainActivity : AppCompatActivity
     {
         drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout)!;
         navigationView = FindViewById<NavigationView>(Resource.Id.nav_view)!;
-        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, Resource.String.nav_open, Resource.String.nav_close);
         menuButton = FindViewById<ImageButton>(Resource.Id.menu_button)!;
         menu = navigationView.Menu;
+
+        // Load Home Fragment
+        LoadFragment(new HomeFragment());
     }
 
     private void InitListeners()
@@ -42,5 +44,53 @@ public class MainActivity : AppCompatActivity
         menuButton!.Click += (sender, e) => drawerLayout!.OpenDrawer(GravityCompat.Start);
 
         menu!.FindItem(Resource.Id.nav_home)!.SetChecked(true);
+
+        navigationView!.NavigationItemSelected += HandleNavigation;
+    }
+
+    private void HandleNavigation(object? sender, NavigationView.NavigationItemSelectedEventArgs e)
+    {
+        e.MenuItem.SetChecked(true);
+
+        // navigate to the item selected
+        switch (e.MenuItem.ItemId)
+        {
+            case Resource.Id.nav_home:
+                LoadFragment(new HomeFragment());
+                break;
+            case Resource.Id.nav_client_registration:
+                LoadFragment(new ConstructionFragment());
+                break;
+            case Resource.Id.nav_client_list:
+                LoadFragment(new ConstructionFragment());
+                break;
+            case Resource.Id.nav_loan_application:
+                LoadFragment(new ConstructionFragment());
+                break;
+            case Resource.Id.nav_routes:
+                LoadFragment(new ConstructionFragment());
+                break;
+            case Resource.Id.nav_reports:
+                LoadFragment(new ConstructionFragment());
+                break;
+            case Resource.Id.nav_about:
+                LoadFragment(new ConstructionFragment());
+                break;
+            case Resource.Id.nav_help:
+                LoadFragment(new ConstructionFragment());
+                break;
+            case Resource.Id.nav_logout:
+                LoadFragment(new ConstructionFragment());
+                break;
+        }
+
+        drawerLayout!.CloseDrawers();
+    }
+
+    private void LoadFragment(AndroidX.Fragment.App.Fragment fragment)
+    {
+        SupportFragmentManager.BeginTransaction()
+            .Replace(Resource.Id.i_fragment_container, fragment)
+            .Commit();
     }
 }
