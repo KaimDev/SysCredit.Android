@@ -38,4 +38,10 @@
 	<string name="recover_account_message">¿Olvidó su contraseña?</string>
 	<string name="log_in_button">Iniciar Sesión</string>
 	<string name="sign_in_button">Registrarse</string>
+
+	<!--Recover Acccount items-->
+	<string name="recover_account">¡Recuperar cuenta!</string>
+	<string name="enter_email_message">Ingrese el correo electrónico para renovar la contraseña</string>
+	<string name="email_input_placeholder">Correo electrónico</string>
+	<string name="send_button">Enviar</string>
 </resources>

@@ -7,6 +7,7 @@ namespace SysCredit.Android.Activities;
 public class LoginActivity : AppCompatActivity
 {
     private Button logInButton = default!;
+    private Button forgetPasswordButton = default!;
 
     protected override void OnCreate(Bundle? savedInstanceState)
     {
@@ -22,6 +23,7 @@ public class LoginActivity : AppCompatActivity
     private void InitComponents()
     {
         logInButton = FindViewById<Button>(Resource.Id.login_button)!;
+        forgetPasswordButton = FindViewById<Button>(Resource.Id.forget_password_button)!;
     }
 
     private void InitListeners()
@@ -29,6 +31,11 @@ public class LoginActivity : AppCompatActivity
         logInButton.Click += (sender, e) =>
         {
             StartActivity(new Intent(this, typeof(MainActivity)));
+        };
+
+        forgetPasswordButton.Click += (sender, e) =>
+        {
+            StartActivity(new Intent(this, typeof(RecoverAccountActivity)));
         };
     }
 }

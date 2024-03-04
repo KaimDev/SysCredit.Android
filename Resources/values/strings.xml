@@ -38,4 +38,10 @@
 	<string name="recover_account_message">Forgot password?</string>
 	<string name="log_in_button">Log in</string>
 	<string name="sign_in_button">Sign in</string>
+
+	<!--Recover Acccount items-->
+	<string name="recover_account">Recover account!</string>
+	<string name="enter_email_message">Enter email to renew password</string>
+	<string name="email_input_placeholder">Email</string>
+	<string name="send_button">Send</string>
 </resources>
