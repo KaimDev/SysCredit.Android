@@ -1,5 +1,6 @@
 ﻿using Android.Content;
 using AndroidX.AppCompat.App;
+using SysCredit.Android.Fragments;
 
 namespace SysCredit.Android.Activities;
 
@@ -10,7 +11,7 @@ public class SplashScreenActivity : AppCompatActivity
     {
         base.OnCreate(savedInstanceState);
 
-        StartActivity(new Intent(this, typeof(HomeActivity)));
+        StartActivity(new Intent(this, typeof(LoginActivity)));
         Finish();
     }
 }
