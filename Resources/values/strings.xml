@@ -13,7 +13,7 @@
     <!--Menu items-->
     <string name="home">Home</string>
     <string name="client_regsitration">Client Registration</string>
-    <string name="client_list">Client List</string>
+    <string name="customer_list">Customer List</string>
     <string name="loan_application">Loan Application</string>
     <string name="routes">Routes</string>
     <string name="reports">Reports</string>
@@ -48,4 +48,14 @@
 	<string name="enter_email_message">Enter email to renew password</string>
 	<string name="email_input_placeholder">Email</string>
 	<string name="send_button">Send</string>
+    
+    <!--Home Fragment-->
+    <string name="home_welcome_message">Welcome</string>
+    <string name="home_instant_cash_message">Instant cash</string>
+    <string name="home_new_customer">New Customer</string>
+    <string name="home_customer_list">List Customer</string>
+    <string name="home_loan_application">Loan Application</string>
+    <string name="home_routes">Routes</string>
+    <string name="home_reports">Reports</string>
+    <string name="home_catalogs">Catalogs</string>
 </resources>

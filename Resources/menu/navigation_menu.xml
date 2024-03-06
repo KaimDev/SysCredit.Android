@@ -17,7 +17,7 @@
         <item
             android:id="@+id/nav_client_list"
             android:icon="@drawable/ic_businessmen_white_syscredit"
-            android:title="@string/client_list" />
+            android:title="@string/customer_list" />
 
         <item
             android:id="@+id/nav_loan_application"

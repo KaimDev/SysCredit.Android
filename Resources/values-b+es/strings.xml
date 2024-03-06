@@ -13,7 +13,7 @@
     <!--Menu items-->
     <string name="home">Inicio</string>
     <string name="client_regsitration">Registro de Clientes</string>
-    <string name="client_list">Lista de Clientes</string>
+    <string name="customer_list">Lista de Clientes</string>
     <string name="loan_application">Solicitud de Préstamo</string>
     <string name="routes">Rutas</string>
     <string name="reports">Reportes</string>
@@ -48,4 +48,14 @@
 	<string name="enter_email_message">Ingrese el correo electrónico para renovar la contraseña</string>
 	<string name="email_input_placeholder">Correo electrónico</string>
 	<string name="send_button">Enviar</string>
+    
+    <!-- Home Fragment -->
+    <string name="home_welcome_message">Bienvenido</string>
+    <string name="home_instant_cash_message">Efectivo al instante</string>
+    <string name="home_new_customer">Nuevo Cliente</string>
+    <string name="home_customer_list">Lista de Clientes</string>
+    <string name="home_loan_application">Solicitud de Préstamo</string>
+    <string name="home_routes">Rutas</string>
+    <string name="home_reports">Reportes</string>
+    <string name="home_catalogs">Catálogos</string>
 </resources>
